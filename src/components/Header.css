@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Roboto:wght@400;700&display=swap');
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family: DM Sans;
+    font-family: "DM Sans";
 }
 .header{
     background-image: url(/src/Icons/Poster.png);
