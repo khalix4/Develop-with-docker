@@ -6,16 +6,7 @@
     font-family: "DM Sans";
 }
 
-h2{
-    margin-left: 70px;
-    text-align: left;
-    color: #000;
 
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-
-}
 .movieList {
     display: grid;
   grid-template-columns: 250px 250px 250px 250px;
@@ -34,20 +25,7 @@ font-weight: 700;
     gap: 12px;
     
 }
-.movieHeading{
-    display: flex;
-width: 1244px;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 44px;
-}
-.movieHeading a{
-    font-size: 18px;
-font-style: normal;
-font-weight: 400;
-color: var(--rose-700, #BE123C);
-text-decoration:none;
-}
+
 .movieTitle{
     color: var(--gray-900, #111827);
 
