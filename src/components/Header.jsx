@@ -11,7 +11,7 @@ function Header(){
                         <p>MovieBox</p>
                     </div>
                     <div className="input-container">
-                        <input type="text" placeholder="Search"/>
+                        <input type="text" placeholder="What do you want to watch?"/>
                         <img src="src/Icons/search.png" alt=""/>
                     </div>
                     <div className="nav-right">
