@@ -16,25 +16,26 @@ function MainContent(){
     },[urlset])
 
     // let dataResult=data.results;
-    let top10Movies = movieData.slice(0, 10);
+    const top10Movies = movieData.slice(0, 10);
+
+    
     return(
         <div className="mainContent">
             <div className="movieHeading">
                 <h2>Featured Movie</h2>
                 <a href="">See More </a>
             </div>
-
-            if(top10Movies.length==0){
-                <p style={{textAlign:"center"}}><i>"No movies found"</i></p>
-
-            }
-            else{
-                top10Movies.map((result,index)=>{
-                    return(
-                    <Card info={result} key={index}/>)
-                })
-            }
-            <Card/>
+           <div className="movieList">
+           {top10Movies.length === 0 ? (
+            <p style={{ textAlign: "center" }}><i>"No movies found"</i></p>
+            ) : (
+            top10Movies.map((result, index) => (
+                <Card info={result} key={index} />
+            ))
+            )
+        }
+           </div>
+            
         </div>
     )
 }

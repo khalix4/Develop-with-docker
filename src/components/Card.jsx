@@ -1,18 +1,21 @@
 import React from 'react'
 import './Card.css'
 
-function Card(){
+function Card(movie){
+    let image_path="https://image.tmdb.org/t/p/w500";
+    
+    
     return(           
         
-            <div class="movieList">
-                <div class="movieCard">
+        
+                <div class="movieCard" data-testid="movie-card">
                     <div class="poster">
-                        <img src="src/Icons/dining.jpeg" alt="" width="250" height="370"/>
+                        <img src={image_path+movie.info.poster_path} alt="" width="250" height="370" data-testid="movie-poster"/>
                         <img src="src/Icons/heart.svg" alt="" class="heart"/>
                     </div>
                     
-                    <p class="releaseDate">USA,2018 -Current</p>
-                    <p class="movieTitle">Stranger Things</p>
+                    <p class="releaseDate" data-testid="movie-release-date">{movie.info.release_date}</p>
+                    <p class="movieTitle" data-testid="movie-title">{movie.info.title}</p>
                     <div class="rating">
                         <div class="imdb ">
                             <img src="src/Icons/IMDB.png" alt=""/>
@@ -23,10 +26,10 @@ function Card(){
                             97%
                         </div>
                     </div>
-                    <p class="movieGenre">Action,Adventure,Horrow</p>
+                    <p class="movieGenre">{movie.info.genre}</p>
                 </div>
 
-            </div>
+    
 
         )
 }

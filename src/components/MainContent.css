@@ -30,4 +30,10 @@ font-weight: 400;
 color: var(--rose-700, #BE123C);
 text-decoration:none;
 }
+.movieList {
+    display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 40px;
+  justify-content: center;
+}
 
