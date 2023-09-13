@@ -26,7 +26,6 @@ function Card(movie){
                             97%
                         </div>
                     </div>
-                    <p class="movieGenre">{movie.info.genre}</p>
                 </div>
 
     
