@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+}
+
+h2{
+    margin-left: 70px;
+    text-align: left;
+    color: #000;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+
+}
+.movieList {
+    display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 40px;
+  justify-content: center;
+}
+.releaseDate{
+    color: var(--gray-400, #9CA3AF);
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+}
+.movieCard{
+    max-width:250px;
+    display: grid;
+    gap: 12px;
+    
+}
+.movieHeading{
+    display: flex;
+width: 1244px;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 44px;
+}
+.movieHeading a{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+color: var(--rose-700, #BE123C);
+text-decoration:none;
+}
+.movieTitle{
+    color: var(--gray-900, #111827);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.imdb,.rottenTomatoes{
+    color: var(--gray-900, #111827);
+    display: inline-flex;
+align-items: center;
+gap: 10px;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px; 
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.movieGenre{
+    color: var(--gray-400, #9CA3AF);
+
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+}
+.poster{
+    position:relative;
+}
+.heart{
+    background-color: #9CA3AF;
+    border-radius: 50%;
+    padding: .2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
