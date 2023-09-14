@@ -102,7 +102,8 @@ font-weight: 700;
 line-height: 56px;
 
 }
-.imdb,.rottenTomatoes{
+.imdb2,.rottenTomatoes2{
+    color: white !important;
     display: inline-flex;
 align-items: center;
 gap: 10px;
@@ -114,6 +115,7 @@ line-height: 12px;
 .rating{
     display: flex;
     gap: 17px;
+    
     
 }
 .paragraph{

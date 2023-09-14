@@ -53,11 +53,14 @@ font-weight: 700;
     position:relative;
 }
 .heart{
-    background-color: #9CA3AF;
+
     border-radius: 50%;
     padding: .2rem;
     position: absolute;
     top: 20px;
     right: 20px;
+}
+.heart:hover{
+    cursor:pointer;
 }
 

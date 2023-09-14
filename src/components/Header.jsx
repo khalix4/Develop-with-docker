@@ -25,11 +25,11 @@ function Header(){
                 <div className="text">
                     <h1>John Wick 3:<br/>Parabellum</h1>
                     <div className="rating">
-                        <div className="imdb ">
+                        <div className="imdb2">
                             <img src="src/Icons/IMDB.png" alt=""/>
                             86.0/100
                         </div>
-                        <div className="rottenTomatoes">
+                        <div className="rottenTomatoes2">
                             <img src="src/Icons/tomato.png" alt="" />
                             97%
                         </div>
