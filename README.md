@@ -22,14 +22,12 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository to your local machine:
 
-   ```sh
    git clone https://github.com/Eniolasoar/moviebox.git
 
 2. Navigate the project directory
-       ```sh
        cd moviebox
 3. Install project dependencies
    npm install
 
-4. Run the App
-     npm run dev
+###Running the App
+To run the app locally, run npm run dev
