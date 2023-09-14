@@ -36,4 +36,16 @@ text-decoration:none;
   gap: 40px;
   justify-content: center;
 }
+@media screen and (max-width:600px){
+    .movieList {
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 40px;
+
+        margin-top: 0.625rem;
+    }
+    .poster img:nth-child(1){
+        width:300px;
+    }
+}
 
