@@ -3,7 +3,6 @@ import './Card.css'
 
 function Card(movie){
     let image_path="https://image.tmdb.org/t/p/w500";
-    console.log(movie.info);
     let rating=movie.info.vote_average;
     let rottenTomatoes=rating * 10;
     
