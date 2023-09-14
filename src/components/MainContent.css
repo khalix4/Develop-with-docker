@@ -48,4 +48,13 @@ text-decoration:none;
         width:300px;
     }
 }
+@media screen and (min-width:600px)and (max-width:992px){
+    .movieList {
+        display: grid;
+      grid-template-columns: 250px 250px 250px;
+      gap: 40px;
+      justify-content: center;
+    }
+}
+
 
