@@ -3,7 +3,7 @@ import Card from "./Card.jsx"
 import "./MainContent.css"
 
 let API_KEY='d6c287e55b74adf5812bec5fad23e8b0';
-let url='https://api.themoviedb.org/3/moie/popular?api_key='+API_KEY;
+let url='https://api.themoviedb.org/3/movie/top_rated?api_key='+API_KEY;
 function MainContent(){
     const[movieData,setData]=useState([]);
     const [urlset,setUrl]=useState(url);
