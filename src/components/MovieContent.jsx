@@ -28,9 +28,9 @@ function MovieContent({info,id}) {
   return(
     <div className="movie-content">
       <div className="movie2" style={{ position: "relative" }}>
-        <img src={image_path+info.poster_path} alt="" width={700} height={300}/>
+        <img src={image_path+info.poster_path} alt="" width={1000} height={310}/>
         <div className="trailer">
-          <img src="./src/Icons/play.png" alt="" width={50} />
+          <img src="/Icons/play.png" alt="" width={50} />
           <p>Watch Trailer</p>
         </div>
       </div>
@@ -49,7 +49,7 @@ function MovieContent({info,id}) {
         </div>
 
         <div className="rating">
-          <img src="./src/Icons/Star.png" alt="" />
+          <img src="/Icons/Star.png" alt="" />
         <p className="rating">{info.vote_average} </p>
           <p className="ratingCount">{info.vote_count}</p>
         </div>
@@ -57,17 +57,17 @@ function MovieContent({info,id}) {
 
       <div className="overviewSection">
         <p className="overview" data-testid=" movie-overview">
-          {info.title}
+          {info.overview}
         </p>
 
         <div className="buttons">
           <button>
-            <img src="./src/Icons/Twotickets.png" alt="" />
+            <img src="/Icons/Twotickets.png" alt="" />
             <p>See Showtimes</p>
           </button>
 
           <button>
-            <img src="./src/Icons/List.png" alt="" />
+            <img src="/Icons/List.png" alt="" />
             <p>More watch options</p>
           </button>
         </div>

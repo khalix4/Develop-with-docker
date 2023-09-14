@@ -7,17 +7,17 @@ function Header(){
             <section className="header" >
                 <nav>
                     <div className="nav-left">
-                        <img src="src/Icons/tv.png" alt="" className="logo"/>
+                        <img src="/Icons/tv.png" alt="" className="logo"/>
                         <p>MovieBox</p>
                     </div>
                     <div className="input-container">
                         <input type="text" placeholder="What do you want to watch?"/>
-                        <img src="src/Icons/search.png" alt=""/>
+                        <img src="/Icons/search.png" alt=""/>
                     </div>
                     <div className="nav-right">
                         <p className="signIn">Sign in</p>
                         <div className="menu">
-                            <img src="src/Icons/Menu alt 4.svg" alt="" />
+                            <img src="/Icons/Menu alt 4.svg" alt="" />
                         </div>
             
                     </div>
@@ -26,17 +26,17 @@ function Header(){
                     <h1>John Wick 3:<br/>Parabellum</h1>
                     <div className="rating">
                         <div className="imdb2">
-                            <img src="src/Icons/IMDB.png" alt=""/>
+                            <img src="/Icons/IMDB.png" alt=""/>
                             86.0/100
                         </div>
                         <div className="rottenTomatoes2">
-                            <img src="src/Icons/tomato.png" alt="" />
+                            <img src="/Icons/tomato.png" alt="" />
                             97%
                         </div>
                     </div>
                     <p className="paragraph">John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
                     <button>
-                        <img src="src/Icons/play.png" alt=""/>
+                        <img src="/Icons/play.png" alt=""/>
                         <p>WATCH TRAILER</p>
                     </button>
                 </div>

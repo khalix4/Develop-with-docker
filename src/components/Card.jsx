@@ -16,7 +16,7 @@ function Card(movie){
         
                 <div className="movieCard" data-testid="movie-card">
                     <div className="poster">
-                        <img src={image_path+movie.info.poster_path} alt="" width="250" height="370" data-testid="movie-poster"/>
+                        <img sr alt="" width="250" height="370" data-testid="movie-poster"/>
                         <img src="src/Icons/heart.svg" alt="" className="heart" onClick={handleClick} style={{backgroundColor:heartColor}}/>
                     </div>
                     
@@ -24,11 +24,11 @@ function Card(movie){
                     <p className="movieTitle" data-testid="movie-title">{movie.info.title}</p>
                     <div className="rating">
                         <div className="imdb ">
-                            <img src="src/Icons/IMDB.png" alt=""/>
+                            <img src="/Icons/IMDB.png" alt=""/>
                             {movie.info.vote_average}/10
                         </div>
                         <div className="rottenTomatoes">
-                            <img src="src/Icons/tomato.png" alt="" />
+                            <img src="/Icons/tomato.png" alt="" />
                             {rottenTomatoes}%
                         </div>
                     </div>

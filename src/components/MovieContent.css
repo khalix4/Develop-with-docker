@@ -27,12 +27,12 @@
   align-items: center;
 }
 .trailer p {
-  color: #e8e8e8;
+  color: white;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   font-family: "Poppins";
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
 }
 .movieInfo {
   display: flex;
