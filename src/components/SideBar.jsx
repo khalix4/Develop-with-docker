@@ -32,7 +32,7 @@ function SideBar(){
             <div className="movieQuiz">
                 <h3>Play movie quizes and earn<br></br> free tickets</h3>
                 <p>50K people are playing now</p>
-                <a href="">Starting playing</a>
+                <a href="" className="playing">Starting playing</a>
             </div>
 
             <div className="logout">

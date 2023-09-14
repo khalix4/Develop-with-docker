@@ -6,3 +6,9 @@
     background-color: white;
     min-height: 100vh;
 }
+@media screen and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

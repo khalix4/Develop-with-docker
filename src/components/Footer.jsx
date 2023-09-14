@@ -3,10 +3,10 @@ function Footer(){
     return(
         <footer>
             <div className="socialLinks">
-                <img src="src/Icons/facebook.svg" alt="" />
-                <img src="src/Icons/instagram.svg" alt="" />
-                <img src="src/Icons/twitter.svg" alt="" />
-                <img src="src/Icons/youtube.svg" alt="" />
+                <img src="/Icons/facebook.svg" alt="" />
+                <img src="/Icons/instagram.svg" alt="" />
+                <img src="/Icons/twitter.svg" alt="" />
+                <img src="/Icons/youtube.svg" alt="" />
             </div>
 
             <div className="extraInfo">

@@ -16,8 +16,8 @@ function Card(movie){
         
                 <div className="movieCard" data-testid="movie-card">
                     <div className="poster">
-                        <img sr alt="" width="250" height="370" data-testid="movie-poster"/>
-                        <img src="src/Icons/heart.svg" alt="" className="heart" onClick={handleClick} style={{backgroundColor:heartColor}}/>
+                        <img src={image_path+movie.info.poster_path} alt="" width="250" height="370" data-testid="movie-poster"/>
+                        <img src="Icons/heart.svg" alt="" className="heart" onClick={handleClick} style={{backgroundColor:heartColor}}/>
                     </div>
                     
                     <p className="releaseDate" data-testid="movie-release-date">{movie.info.release_date}</p>
