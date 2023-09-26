@@ -5,14 +5,16 @@ import MainContent from "./components/MainContent.jsx";
 import './index.css';
 import Footer from './components/Footer.jsx';
 import MovieDetails from './components/MovieDetails.jsx';
+import Layout from './components/Layout.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Create a separate layout component for the home page
 const HomeLayout = () => (
   <>
-    <Header />
-    <MainContent />
-    <Footer />
+    <Layout>
+      <MainContent />
+      <Footer />
+    </Layout>
   </>
 );
 

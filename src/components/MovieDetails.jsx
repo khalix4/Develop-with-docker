@@ -7,7 +7,6 @@ function MovieDetails(){
     const { id } = useParams();
     const [movieDetails, setMovieDetails] = useState(null);
     const [error,setError]=useState(null)
-        console.log("I am working");
     useEffect(() => {
  
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=d6c287e55b74adf5812bec5fad23e8b0`)
