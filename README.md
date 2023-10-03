@@ -35,6 +35,6 @@ To run the app locally, run npm run dev
 
 ## Stacks Used
 
--React(JavaScript FrameWork)
--TMDB API
--Cascading StyleSheets(CSS)
+- React(JavaScript FrameWork)
+- TMDB API
+- Cascading StyleSheets(CSS)
