@@ -2,6 +2,7 @@ import "./Footer.css"
 function Footer(){
     return(
         <footer>
+            
             <div className="socialLinks">
                 <img src="/Icons/facebook.svg" alt="" />
                 <img src="/Icons/instagram.svg" alt="" />
