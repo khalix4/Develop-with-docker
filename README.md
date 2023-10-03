@@ -1,12 +1,13 @@
 # MovieBox
 
-A React web application that allows users to view top 10 rated movies,add their favorite movie while consuming the TMDB API
+A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies. You’ll be consuming data from the TMDB API.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Stacks Used](#stacks)
 - [Running the App](#running-the-app)
 
 ## Getting Started
@@ -31,3 +32,9 @@ Before you begin, ensure you have met the following requirements:
 
 ###Running the App
 To run the app locally, run npm run dev
+
+## Stacks Used
+
+-React(JavaScript FrameWork)
+-TMDB API
+-Cascading StyleSheets(CSS)
