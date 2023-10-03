@@ -18,7 +18,20 @@ font-weight: 700;
     max-width:250px;
     display: grid;
     gap: 12px;
-    
+    transition: 2s;
+}
+.movieCard:hover{
+    animation: movieAnimation 2s;
+    cursor: pointer;
+}
+
+@keyframes movieAnimation {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-20px);
+    }
 }
 
 .movieTitle{

@@ -9,6 +9,16 @@ function MainContent(){
     const [urlset,setUrl]=useState(url);
     const [error, setError] = useState(null);
 
+    const myStyle={
+            textAlign: "center",
+    width: "700px",
+    fontSize: "30px",
+    backgroundColor: "red",
+    padding: "10px",
+    color: "white"
+}
+    
+
     useEffect(()=>{
         fetch(url)
         .then(response=>response.json())
@@ -28,7 +38,7 @@ function MainContent(){
             </div>
            <div className="movieList">
            {error ? (
-        <p style={{ textAlign: "center",width:"500px" }}>{error+" movies from database. Please Try again"}</p>
+        <p style={myStyle}>{error+" movies from database. Reload Page"}</p>
       ) : 
            
            (top10Movies.length === 0 ? (

@@ -1,27 +1,12 @@
 import React from 'react'
 import './Header.css'
+import NavBar from './NavBar'
 
 function Header(){
     return(
         <>
             <section className="header" >
-                <nav>
-                    <div className="nav-left">
-                        <img src="/Icons/tv.png" alt="" className="logo"/>
-                        <p>MovieBox</p>
-                    </div>
-                    <div className="input-container">
-                        <input type="text" placeholder="What do you want to watch?"/>
-                        <img src="/Icons/search.png" alt=""/>
-                    </div>
-                    <div className="nav-right">
-                        <p className="signIn">Sign in</p>
-                        <div className="menu">
-                            <img src="/Icons/Menu alt 4.svg" alt="" />
-                        </div>
-            
-                    </div>
-                </nav>
+               <NavBar/>
                 <div className="text">
                     <h1>John Wick 3:<br/>Parabellum</h1>
                     <div className="rating">

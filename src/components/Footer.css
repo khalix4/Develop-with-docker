@@ -19,6 +19,12 @@ gap: 36px;
 align-items: center;
 gap: 48px;
 }
+.socialLinks img:hover{
+    cursor: pointer;
+    padding: 4px;
+    border-radius:10px;
+    background-color: gray;
+}
 .extraInfo{
     display: flex;
 align-items: flex-start;
