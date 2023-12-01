@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Specify the name of your Dockerfile
+    ports:
+      - "3000:3000"  # Map container port 8080 to host port 8080
